@@ -4,19 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula de form</title>
+    <title>Document</title>
 </head>
 <body>
-    <center><h1><strong>PREENCHA O FORMULÁRIO</strong></h1>
-<form name="signup" onsubmit="alert" metfod="POST"action="#">
-    Nome:<input type="text" name="name"/><br>
-    Idade:<input type="number" name="age"/><br>
-    Senha:<input type="password" name="password"/><br>
-    Cidade:<input type="text" name="name"/><br>
-    Telefone:<input type="tel" name="number"/><br>
+<form>
+<label><strong>TEXT</strong></label><input  type="text"/><br>
+<label><strong>NUMBER</strong></label><input  type="number" min="0"step="5"max="75"/><br>
+<label><strong>AGE</strong></label><input  type="date"/><br>
+<label><strong>CPF</strong></label><input  type="text"/><button type="submit">ok</button><br>
+<label><strong>TEXT</strong></label><input  type="text"/><br>
+<label><strong>COLOR</strong></label><input  type="color"/><br>
+<label><strong>E-mail:</strong></label><input  type="email"/><button type="submit">OK</button><br>
+<label><strong>URL</strong></label><input  type="url"/><br>
+<label><strong>Week</strong></label><input  type="week"/><br>
+<label><strong>Month</strong></label><input  type="month"/><br>
+<label><strong>SIM</strong></label><input  type="checkbox"name="aceita"/></label><input  type="checkbox" name="aceita"/>Não<br>
+<label><strong>Radio</strong></label><input  type="radio" name="aceita"/></label><input  type="radio" name="aceita"/><br>
+<label><strong>HIDDEN</strong></label><input  type="hidden"/><br>
+<label><strong>FILE</strong></label><input  type="file" multiple/><br>
+<label><strong>SEARCH</strong></label><input  type="search"/><br>
 
-    <button type="submit">Enviar</button>
+<label><strong>ENVIAR</strong></label><input  type="submit" value="Enviar"/><br>
+
+
 </form>
-    </center>
 </body>
 </html>
